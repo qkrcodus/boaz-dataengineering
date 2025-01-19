@@ -1,20 +1,40 @@
 {
   "main": {
-    "id": "f042b8eba5685fa3",
+    "id": "b97b883e6fd4a363",
     "type": "split",
     "children": [
       {
-        "id": "48636175aa2a7e03",
+        "id": "d820ca0310535010",
         "type": "tabs",
         "children": [
           {
-            "id": "09cc55b2db9a3d3c",
+            "id": "13e0efc75e3a46c0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "1주차.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "1주차"
+            }
+          }
+        ]
+      },
+      {
+        "id": "49ca1097d50e8b7c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7a64257d2e519d84",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -23,15 +43,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "31416d5ec27399d9",
+    "id": "dbd3ad34cc41f5be",
     "type": "split",
     "children": [
       {
-        "id": "f34f1b0b9bd6a1b5",
+        "id": "3cba82d68e2d79d9",
         "type": "tabs",
         "children": [
           {
-            "id": "e06204e11e575c54",
+            "id": "630c31feeb7328db",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +63,7 @@
             }
           },
           {
-            "id": "18e03d1789d9a03e",
+            "id": "ae1bc6517c0ec810",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -60,7 +80,7 @@
             }
           },
           {
-            "id": "d3f4fa539f523608",
+            "id": "e452a63cc7cfb35b",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -76,20 +96,20 @@
     "width": 300
   },
   "right": {
-    "id": "486747daece8692e",
+    "id": "bdb8dae6254baf6f",
     "type": "split",
     "children": [
       {
-        "id": "10b000fa4ab3e7ac",
+        "id": "97cdf18f864822f7",
         "type": "tabs",
         "children": [
           {
-            "id": "cb98382744db15a1",
+            "id": "c068875aee39671b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
+                "file": "1주차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,25 +119,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Welcome"
+              "title": "Backlinks for 1주차"
             }
           },
           {
-            "id": "220a53db5df8bc20",
+            "id": "aa41f57603f58a7a",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
+                "file": "1주차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Welcome"
+              "title": "Outgoing links from 1주차"
             }
           },
           {
-            "id": "f517d5e7c2017887",
+            "id": "20e31e06e128b466",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -130,15 +150,15 @@
             }
           },
           {
-            "id": "63a59c2c065bd961",
+            "id": "8ff0503f971d3350",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md"
+                "file": "1주차.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Welcome"
+              "title": "Outline of 1주차"
             }
           }
         ]
@@ -158,8 +178,8 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "09cc55b2db9a3d3c",
+  "active": "13e0efc75e3a46c0",
   "lastOpenFiles": [
-    "데이터베이스와 스토리지 1-15일.md"
+    "1주차.md"
   ]
 }
