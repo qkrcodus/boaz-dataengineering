@@ -1,0 +1,170 @@
+{
+  "main": {
+    "id": "e90a82c59507fdb5",
+    "type": "split",
+    "children": [
+      {
+        "id": "99420ba9a6d276db",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3f838a36547df580",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1주차 (1-70).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1주차 (1-70)"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4efa2628eb4955ca",
+    "type": "split",
+    "children": [
+      {
+        "id": "26c6dd5065dde0fe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "db9c403387413eb4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "ae3b7e76258e32e2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "bd2f052dcfae7bcd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "5edd50a55a709d99",
+    "type": "split",
+    "children": [
+      {
+        "id": "fba3c435223000cf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "24285928d48648b5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "1주차 (1-70).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 1주차 (1-70)"
+            }
+          },
+          {
+            "id": "da1ed7046a5bd958",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "1주차 (1-70).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 1주차 (1-70)"
+            }
+          },
+          {
+            "id": "5dc87758035d77c2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "bfbf1e7f70eed661",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "1주차 (1-70).md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 1주차 (1-70)"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "3f838a36547df580",
+  "lastOpenFiles": [
+    "1주차 (1-70).md"
+  ]
+}
