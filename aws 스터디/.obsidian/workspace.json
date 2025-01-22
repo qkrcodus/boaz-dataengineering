@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "99420ba9a6d276db",
+        "id": "0f793e0f730ddc9a",
         "type": "tabs",
         "children": [
           {
-            "id": "3f838a36547df580",
+            "id": "69825ed088810d96",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -163,7 +163,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3f838a36547df580",
+  "active": "69825ed088810d96",
   "lastOpenFiles": [
     "1주차 (1-70).md"
   ]
