@@ -20,24 +20,23 @@
               "icon": "lucide-file",
               "title": "1-15 세션 데이터베이스와 스토리지"
             }
-          }
-        ]
-      },
-      {
-        "id": "e3d4bac97dbd84ba",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "296ef7783d25662d",
+            "id": "6ef55c2c7b17df30",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "1-22 세션 네트워크와 API.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1-22 세션 네트워크와 API"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "71f0caac2ad5d7cf",
@@ -178,8 +178,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7bcebf6bfcd48300",
+  "active": "6ef55c2c7b17df30",
   "lastOpenFiles": [
-    "1-15 세션 데이터베이스와 스토리지.md"
+    "스크린샷 2025-01-22 오후 6.11.42.png",
+    "1-15 세션 데이터베이스와 스토리지.md",
+    "1-22 세션 네트워크와 API.md"
   ]
 }
