@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "b853139dfcb3e5c7",
+        "id": "c206497f7116833a",
         "type": "tabs",
         "children": [
           {
-            "id": "7bcebf6bfcd48300",
+            "id": "f02cf64a80d888a4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1-15 세션 데이터베이스와 스토리지.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "1-15 세션 데이터베이스와 스토리지"
-            }
-          },
-          {
-            "id": "6ef55c2c7b17df30",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1-22 세션 네트워크와 API.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1-22 세션 네트워크와 API"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,8 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "71f0caac2ad5d7cf",
@@ -178,10 +158,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6ef55c2c7b17df30",
+  "active": "f02cf64a80d888a4",
   "lastOpenFiles": [
+    "1-22 세션 네트워크와 API.md",
     "스크린샷 2025-01-22 오후 6.11.42.png",
-    "1-15 세션 데이터베이스와 스토리지.md",
-    "1-22 세션 네트워크와 API.md"
+    "1-15 세션 데이터베이스와 스토리지.md"
   ]
 }
