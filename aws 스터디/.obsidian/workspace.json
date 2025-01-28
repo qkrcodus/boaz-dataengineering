@@ -13,6 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "1주차 (1-70).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1주차 (1-70)"
+            }
+          },
+          {
+            "id": "22b39cd33b43ff4e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "2주차 (71-140).md",
                 "mode": "source",
                 "source": false
@@ -21,7 +35,8 @@
               "title": "2주차 (71-140)"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "5edd50a55a709d99",
@@ -162,9 +178,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e7fc3849dd5f9939",
+  "active": "22b39cd33b43ff4e",
   "lastOpenFiles": [
     "1주차 (1-70).md",
-    "2주차 (71-140).md"
+    "2주차 (71-140).md",
+    "스크린샷 2025-01-28 오후 7.55.48.png"
   ]
 }
