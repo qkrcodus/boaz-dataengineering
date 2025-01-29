@@ -11,10 +11,14 @@
             "id": "d65a7b122bbd5b8e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "1-29 도커와 쿠버네티스.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "1-29 도커와 쿠버네티스"
             }
           }
         ]
@@ -158,8 +162,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2cf855e7399c05f0",
+  "active": "d65a7b122bbd5b8e",
   "lastOpenFiles": [
+    "1-29 도커와 쿠버네티스.md",
     "1-22 세션 네트워크와 API.md",
     "스크린샷 2025-01-22 오후 6.11.42.png",
     "1-15 세션 데이터베이스와 스토리지.md"
