@@ -1,0 +1,95 @@
+version: "3"
+
+services:
+  namenode:
+    image: bde2020/hadoop-namenode:2.0.0-hadoop3.2.1-java8
+    container_name: namenode
+    environment:
+      - CLUSTER_NAME=HadoopCluster
+      - CORE_CONF_fs_defaultFS=hdfs://namenode:9000   # 추가: HDFS 기본 파일 시스템 설정
+    ports:
+      - "9870:9870"   # NameNode UI
+      - "9000:9000"   # HDFS RPC 포트
+    volumes:
+      - namenode_data:/hadoop/dfs/name
+    networks:
+      - hadoop-spark
+
+  datanode:
+    image: bde2020/hadoop-datanode:2.0.0-hadoop3.2.1-java8
+    container_name: datanode
+    environment:
+      - CLUSTER_NAME=HadoopCluster
+      - CORE_CONF_fs_defaultFS=hdfs://namenode:9000
+      - HDFS_CONF_dfs_namenode_rpc-address=namenode:9000  # 추가: NameNode의 RPC 주소 명시
+    ports:
+      - "9864:9864"   # DataNode UI
+    volumes:
+      - datanode_data:/hadoop/dfs/data
+    depends_on:
+      - namenode
+    networks:
+      - hadoop-spark
+
+  resourcemanager:
+    image: bde2020/hadoop-resourcemanager:2.0.0-hadoop3.2.1-java8
+    container_name: resourcemanager
+    environment:
+      - YARN_CONF_yarn_resourcemanager_hostname=resourcemanager
+      - CORE_CONF_fs_defaultFS=hdfs://namenode:9000   # 추가: YARN도 HDFS를 인식하도록 설정
+    ports:
+      - "8088:8088"   # YARN ResourceManager UI
+    depends_on:
+      - namenode
+    networks:
+      - hadoop-spark
+
+  nodemanager:
+    image: bde2020/hadoop-nodemanager:2.0.0-hadoop3.2.1-java8
+    container_name: nodemanager
+    environment:
+      - YARN_CONF_yarn_resourcemanager_hostname=resourcemanager
+      - CORE_CONF_fs_defaultFS=hdfs://namenode:9000   # 추가
+    depends_on:
+      - resourcemanager
+    networks:
+      - hadoop-spark
+
+  spark-master:
+    image: bitnami/spark:latest
+    container_name: spark-master
+    environment:
+      - SPARK_MODE=master
+      - SPARK_MASTER_HOST=spark-master
+      - CORE_CONF_fs_defaultFS=hdfs://namenode:9000   # Spark도 HDFS 인식하도록 추가
+    ports:
+      - "7077:7077"   # Spark Master Port
+      - "8080:8080"   # Spark Master UI
+    networks:
+      - hadoop-spark
+
+  spark-worker:
+    image: bitnami/spark:latest
+    container_name: spark-worker
+    environment:
+      - SPARK_MODE=worker
+      - SPARK_MASTER_URL=spark://spark-master:7077
+      - CORE_CONF_fs_defaultFS=hdfs://namenode:9000   # 추가
+    ports:
+      - "8081:8081"   # Spark Worker UI
+    depends_on:
+      - spark-master
+    networks:
+      - hadoop-spark
+
+networks:
+  hadoop-spark:
+    driver: bridge  # 명시적으로 bridge 네트워크 사용
+
+volumes:
+  namenode_data:
+  datanode_data:
+
+
+
+
