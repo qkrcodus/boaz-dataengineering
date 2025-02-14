@@ -13,8 +13,8 @@
 - docker-compose up 은 이미지를 빌드하고 서비스를 실행해준다. ( docker pull & docker run 과정 )
 
 ---
-## Hadoop 
-
+## Hadoop 이란?
+대규모 데이터 세트를 분산된 환경에서 처리할 수 있는 도구
 핵심 구성 요소 ( HDFS, YARN, MapReduce)
 ### 1. HDFS (Hadoop Distributed File System)
 대규모 데이터를 분산 저장하는 파일 시스템
@@ -213,27 +213,36 @@ docker exec -it spark-master bash
 2. wordcount.py 작성
 echo "from pyspark import SparkContext
 
-sc = SparkContext('spark://spark-master:7077', 'MobyDictWordCount')
-text_file = sc.textFile('hdfs://namenode:9000/user/test/first20_moby_dict.txt')
+sc = SparkContext('spark://spark-master:7077', 'MobyDictCount')
+text_file = sc.textFile('hdfs://namenode:9000/user/test/moby_dict.txt')
 counts = text_file.flatMap(lambda line: line.split(' ')) \
                   .map(lambda word: (word, 1)) \
                   .reduceByKey(lambda a, b: a + b)
-counts.saveAsTextFile('hdfs://namenode:9000/user/test/first20_moby_dict_output')" > first20_mobydict_wordcount.py
+counts.saveAsTextFile('hdfs://namenode:9000/user/test/moby_dict_output')" > moby_dict_output.py
 
 3. spark 애플리케이션 실행
-spark-submit --master spark://spark-master:7077 first20_mobydict_wordcount.py
+spark-submit --master spark://spark-master:7077 moby_dict_output.py
 
 ![](https://i.imgur.com/uv1wbdi.png)
 
 4. 데이터를 여러 노드에 분산시켜 처리하기 위해 내부적으로 데이터를 파티션으로 나누기에 
 
-hdfs dfs -ls /user/test/first20_moby_dict_output 
+hdfs dfs -ls /user/test/moby_dict_output 
 ![](https://i.imgur.com/Oy3npCU.png)
 
-hdfs dfs -cat /user/test/first20_moby_dict_output/part-00000
+hdfs dfs -cat /user/test/moby_dict_output/part-00000
 ![](https://i.imgur.com/o5KpKTU.png)
 
 hdfs dfs -cat /user/test/first20_moby_dict_output/part-00001
 ![](https://i.imgur.com/Be6IZOC.png)
 
 
+### 과제 수정 
+전체 모비딕을 map reduce 방식과 spark 방식으로 돌리고 head -n 20 명령어 쓰는 것이였다.
+
+1. map reduce
+![](https://i.imgur.com/n1IHxYK.png)
+
+2. spark
+파티션 00000 이랑 파티션 00001 중 00000만 첫 20 줄 출력하면 될까요?
+![](https://i.imgur.com/FofKtGi.png)
