@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2-19 세션 Airflow.md",
+                "file": "배달의 민족 데이터 파이프라인 case study.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2-19 세션 Airflow"
+              "title": "배달의 민족 데이터 파이프라인 case study"
             }
           }
         ]
@@ -165,8 +165,8 @@
   },
   "active": "5ec3c7c57ea14341",
   "lastOpenFiles": [
-    "2-12 세션 Kafka.md",
     "2-19 세션 Airflow.md",
+    "2-12 세션 Kafka.md",
     "배달의 민족 데이터 파이프라인 case study.md",
     "2-05 세션 Hadoop과 Spark.md",
     "().md",

@@ -76,3 +76,10 @@ graph
 ### 과제
 로컬에 간단한 api를 띄워 1분마다 요청을 보내는 DAG 작성
 요청 주소: [`http://host.docker.internal:8000/`](http://host.docker.internal:8000/) (docker 내부에서 localhost를 지정하는 형식)
+
+사용자는 airflow 를 사용하기 위해 
+1. 작업 실행하는 단위인 operator  -> HTTP 요청 수행하는 SimpleHttpOperator
+2. 작업 순서인 DAG과 이를 이루는 task
+3. task 실행 방식인 executor 를 설정한다.
+
+부가적으로 task가 실행되는 주기를 cron, task 들끼리 데이터를 주고받는 과정을 xcom 으로 정의해둔다.
