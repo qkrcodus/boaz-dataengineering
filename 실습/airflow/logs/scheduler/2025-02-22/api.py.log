@@ -1,0 +1,182 @@
+[2025-02-22T12:52:28.209+0000] {processor.py:157} INFO - Started process (PID=127) to work on /opt/airflow/dags/api.py
+[2025-02-22T12:52:28.210+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-22T12:52:28.212+0000] {logging_mixin.py:154} INFO - [2025-02-22T12:52:28.212+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-22T12:52:28.218+0000] {logging_mixin.py:154} INFO - [2025-02-22T12:52:28.216+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/api.py", line 1, in <module>
+    from fastapi import FastAPI
+ModuleNotFoundError: No module named 'fastapi'
+[2025-02-22T12:52:28.218+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/api.py
+[2025-02-22T12:52:28.232+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/api.py took 0.025 seconds
+[2025-02-22T12:52:58.520+0000] {processor.py:157} INFO - Started process (PID=136) to work on /opt/airflow/dags/api.py
+[2025-02-22T12:52:58.521+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-22T12:52:58.524+0000] {logging_mixin.py:154} INFO - [2025-02-22T12:52:58.523+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-22T12:52:58.529+0000] {logging_mixin.py:154} INFO - [2025-02-22T12:52:58.528+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/api.py", line 1, in <module>
+    from fastapi import FastAPI
+ModuleNotFoundError: No module named 'fastapi'
+[2025-02-22T12:52:58.529+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/api.py
+[2025-02-22T12:52:58.543+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/api.py took 0.026 seconds
+[2025-02-22T12:53:28.813+0000] {processor.py:157} INFO - Started process (PID=145) to work on /opt/airflow/dags/api.py
+[2025-02-22T12:53:28.815+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-22T12:53:28.821+0000] {logging_mixin.py:154} INFO - [2025-02-22T12:53:28.821+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-22T12:53:28.825+0000] {logging_mixin.py:154} INFO - [2025-02-22T12:53:28.824+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/api.py", line 1, in <module>
+    from fastapi import FastAPI
+ModuleNotFoundError: No module named 'fastapi'
+[2025-02-22T12:53:28.825+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/api.py
+[2025-02-22T12:53:28.837+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/api.py took 0.026 seconds
+[2025-02-22T12:53:59.076+0000] {processor.py:157} INFO - Started process (PID=154) to work on /opt/airflow/dags/api.py
+[2025-02-22T12:53:59.078+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-22T12:53:59.079+0000] {logging_mixin.py:154} INFO - [2025-02-22T12:53:59.079+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-22T12:53:59.084+0000] {logging_mixin.py:154} INFO - [2025-02-22T12:53:59.083+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/api.py", line 1, in <module>
+    from fastapi import FastAPI
+ModuleNotFoundError: No module named 'fastapi'
+[2025-02-22T12:53:59.084+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/api.py
+[2025-02-22T12:53:59.101+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/api.py took 0.028 seconds
+[2025-02-22T12:54:29.345+0000] {processor.py:157} INFO - Started process (PID=163) to work on /opt/airflow/dags/api.py
+[2025-02-22T12:54:29.345+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-22T12:54:29.347+0000] {logging_mixin.py:154} INFO - [2025-02-22T12:54:29.347+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-22T12:54:29.352+0000] {logging_mixin.py:154} INFO - [2025-02-22T12:54:29.351+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/api.py", line 1, in <module>
+    from fastapi import FastAPI
+ModuleNotFoundError: No module named 'fastapi'
+[2025-02-22T12:54:29.352+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/api.py
+[2025-02-22T12:54:29.364+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/api.py took 0.022 seconds
+[2025-02-22T12:54:59.648+0000] {processor.py:157} INFO - Started process (PID=172) to work on /opt/airflow/dags/api.py
+[2025-02-22T12:54:59.649+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-22T12:54:59.652+0000] {logging_mixin.py:154} INFO - [2025-02-22T12:54:59.651+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-22T12:54:59.657+0000] {logging_mixin.py:154} INFO - [2025-02-22T12:54:59.656+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/api.py", line 1, in <module>
+    from fastapi import FastAPI
+ModuleNotFoundError: No module named 'fastapi'
+[2025-02-22T12:54:59.657+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/api.py
+[2025-02-22T12:54:59.671+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/api.py took 0.026 seconds
+[2025-02-22T12:55:29.945+0000] {processor.py:157} INFO - Started process (PID=181) to work on /opt/airflow/dags/api.py
+[2025-02-22T12:55:29.946+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-22T12:55:29.948+0000] {logging_mixin.py:154} INFO - [2025-02-22T12:55:29.948+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-22T12:55:29.953+0000] {logging_mixin.py:154} INFO - [2025-02-22T12:55:29.952+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/api.py", line 1, in <module>
+    from fastapi import FastAPI
+ModuleNotFoundError: No module named 'fastapi'
+[2025-02-22T12:55:29.954+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/api.py
+[2025-02-22T12:55:29.969+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/api.py took 0.026 seconds
+[2025-02-22T12:56:00.202+0000] {processor.py:157} INFO - Started process (PID=189) to work on /opt/airflow/dags/api.py
+[2025-02-22T12:56:00.203+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-22T12:56:00.205+0000] {logging_mixin.py:154} INFO - [2025-02-22T12:56:00.205+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-22T12:56:00.210+0000] {logging_mixin.py:154} INFO - [2025-02-22T12:56:00.210+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/api.py", line 1, in <module>
+    from fastapi import FastAPI
+ModuleNotFoundError: No module named 'fastapi'
+[2025-02-22T12:56:00.211+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/api.py
+[2025-02-22T12:56:00.225+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/api.py took 0.027 seconds
+[2025-02-22T12:56:30.525+0000] {processor.py:157} INFO - Started process (PID=198) to work on /opt/airflow/dags/api.py
+[2025-02-22T12:56:30.526+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-22T12:56:30.528+0000] {logging_mixin.py:154} INFO - [2025-02-22T12:56:30.528+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-22T12:56:30.533+0000] {logging_mixin.py:154} INFO - [2025-02-22T12:56:30.532+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/api.py", line 1, in <module>
+    from fastapi import FastAPI
+ModuleNotFoundError: No module named 'fastapi'
+[2025-02-22T12:56:30.533+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/api.py
+[2025-02-22T12:56:30.546+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/api.py took 0.024 seconds
+[2025-02-22T12:57:00.821+0000] {processor.py:157} INFO - Started process (PID=207) to work on /opt/airflow/dags/api.py
+[2025-02-22T12:57:00.822+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-22T12:57:00.823+0000] {logging_mixin.py:154} INFO - [2025-02-22T12:57:00.823+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-22T12:57:00.828+0000] {logging_mixin.py:154} INFO - [2025-02-22T12:57:00.827+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/api.py", line 1, in <module>
+    from fastapi import FastAPI
+ModuleNotFoundError: No module named 'fastapi'
+[2025-02-22T12:57:00.829+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/api.py
+[2025-02-22T12:57:00.845+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/api.py took 0.027 seconds
+[2025-02-22T12:57:31.132+0000] {processor.py:157} INFO - Started process (PID=216) to work on /opt/airflow/dags/api.py
+[2025-02-22T12:57:31.134+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-22T12:57:31.136+0000] {logging_mixin.py:154} INFO - [2025-02-22T12:57:31.136+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-22T12:57:31.141+0000] {logging_mixin.py:154} INFO - [2025-02-22T12:57:31.139+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/api.py", line 1, in <module>
+    from fastapi import FastAPI
+ModuleNotFoundError: No module named 'fastapi'
+[2025-02-22T12:57:31.141+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/api.py
+[2025-02-22T12:57:31.153+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/api.py took 0.023 seconds
+[2025-02-22T12:58:01.372+0000] {processor.py:157} INFO - Started process (PID=225) to work on /opt/airflow/dags/api.py
+[2025-02-22T12:58:01.372+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-22T12:58:01.374+0000] {logging_mixin.py:154} INFO - [2025-02-22T12:58:01.374+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-22T12:58:01.378+0000] {logging_mixin.py:154} INFO - [2025-02-22T12:58:01.377+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/api.py", line 1, in <module>
+    from fastapi import FastAPI
+ModuleNotFoundError: No module named 'fastapi'
+[2025-02-22T12:58:01.378+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/api.py
+[2025-02-22T12:58:01.389+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/api.py took 0.019 seconds
+[2025-02-22T12:58:31.640+0000] {processor.py:157} INFO - Started process (PID=234) to work on /opt/airflow/dags/api.py
+[2025-02-22T12:58:31.641+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-22T12:58:31.643+0000] {logging_mixin.py:154} INFO - [2025-02-22T12:58:31.643+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-22T12:58:31.648+0000] {logging_mixin.py:154} INFO - [2025-02-22T12:58:31.647+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/api.py", line 1, in <module>
+    from fastapi import FastAPI
+ModuleNotFoundError: No module named 'fastapi'
+[2025-02-22T12:58:31.648+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/api.py
+[2025-02-22T12:58:31.661+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/api.py took 0.024 seconds
